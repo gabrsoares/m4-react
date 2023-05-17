@@ -1,0 +1,6 @@
+button {
+    display: flex;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    align-items: center;
+}

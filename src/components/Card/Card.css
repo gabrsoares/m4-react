@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid #000;
+}
+
+button {
+    width: 50%;
+    height: 30%;
+    justify-items: flex-end;
+}
+
+p {
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        height: 30vh;
+    }
+}
